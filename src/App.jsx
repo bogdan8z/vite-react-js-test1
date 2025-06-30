@@ -1,11 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
+import Counter from './Counter';
+import Greetings from './Greetings';
+import FruitList from './FruitList';
+import TextInput from './TextInput';
+import Timer from './Timer';
+import Test from './Test';
+import TaskApp from './Tasks/TaskApp';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -17,14 +21,14 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
+      <Counter />
+      <Greetings name="Bogg" />
+      <Greetings name="Gtuu" />
+      <FruitList />
+      <TextInput />
+      <Timer />
+      <Test />
+      <TaskApp></TaskApp>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
