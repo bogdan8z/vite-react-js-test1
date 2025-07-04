@@ -8,6 +8,7 @@ import TextInput from './TextInput';
 import Timer from './Timer';
 import Test from './Test';
 import TaskApp from './Tasks/TaskApp';
+import TaskRedApp from './TasksWithReducer/TaskRedApp';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Timer />
       <Test />
       <TaskApp></TaskApp>
+      <TaskRedApp></TaskRedApp>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
