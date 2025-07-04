@@ -8,7 +8,7 @@ import TextInput from './TextInput';
 import Timer from './Timer';
 import Test from './Test';
 import TaskApp from './Tasks/TaskApp';
-import TaskRedApp from './TasksWithReducer/TaskRedApp';
+import TaskRedApp from './Tasks/TaskRedApp';
 
 function App() {
   return (
